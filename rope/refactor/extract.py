@@ -1,7 +1,7 @@
 import re
-from typing import Dict
 from contextlib import contextmanager
 from itertools import chain
+from typing import Dict
 
 from rope.base import ast, codeanalyze
 from rope.base.change import ChangeContents, ChangeSet
